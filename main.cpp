@@ -41,33 +41,6 @@ int main() {
     // Ticket
     int widthL = 20;
 
-    /*    cout << format(
-            "+-------------------------------+\n"
-                "|                                \n"
-                "|{}                              \n"
-                "|{}                              \n"
-                "|                                \n"
-                "|Somme Euro                 : {:.2f} \n"
-                "|{} CHF en Euro              : {} \n"
-                "|                                \n"
-                "|Somme CHF                  : {:.2f} \n"
-                "|Frais                      : {} \n"
-                "|                                \n"
-                "|Solde Compte               : {:.2f} \n"
-                "|                                \n"
-                "+-------------------------------+",
-                name, n_acnt, sold_euro, t_chf,
-                t_euro, sold_chf, op_fee, f_sold_acnt) << endl;
-
-    }
-    */
-/*    cout << format(
-        "+{:-<{}}+ \n"
-        "| {:<{}} : {:.2f} \n",
-        "", 30,
-        "Test", widthL, sold_euro
-    );
-*/
     cout << format(
     "+{:-<{}}+ \n"
         "| \n"
